@@ -1,0 +1,168 @@
+.g2 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.hello {
+  font-size: 4.2rem;
+  color: rgb(141, 19, 178);
+}
+
+.hello2 {
+  font-size: 3rem;
+  color: rgb(141, 19, 178);
+}
+
+.hello3 {
+  font-size: 4.4rem;
+  color: rgb(205, 18, 117);
+}
+
+.hello4 {
+  font-size: 2rem;
+  color: rgb(141, 19, 178);
+}
+
+.arifpik {
+  width: 400px;
+  height: 300px;
+  border: 2px solid rgb(101, 13, 210);
+  border-radius: 49%;
+}
+.s2h {
+  color: rgb(141, 19, 178);
+  text-align: center;
+}
+.s2p {
+  color: rgb(141, 19, 178);
+  text-align: center;
+}
+.s3h {
+  color: rgb(141, 19, 178);
+  text-align: center;
+}
+.s3p {
+  color: rgb(141, 19, 178);
+  text-align: center;
+}
+
+.link2 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.cardh {
+  font-weight: 500;
+  color: rgb(141, 19, 178);
+}
+
+.cardp {
+  color: rgb(10, 4, 11);
+  opacity: 0.8;
+}
+
+.card {
+  box-shadow: inset;
+}
+
+.hk {
+  display: flex;
+  justify-content: space-between;
+}
+.love {
+  color: rgb(187, 13, 13);
+}
+.main {
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+.ghj {
+  position: static;
+  position: sticky;
+}
+
+.ph {
+  color: rgb(159, 25, 179);
+}
+
+@media (max-width: 600px) {
+  .section1 {
+    display: flex;
+    flex-direction: column;
+    .hello {
+      font-size: 2rem;
+    }
+    .hello2 {
+      font-size: 1.5rem;
+    }
+    .hello3 {
+      font-size: 2rem;
+    }
+    .hello4 {
+      font-size: 0.9rem;
+    }
+  }
+}
+
+@media (max-width: 800px) {
+  .section1 {
+    display: flex;
+    flex-direction: column;
+    .hello {
+      font-size: 3rem;
+    }
+    .hello2 {
+      font-size: 2rem;
+    }
+    .hello3 {
+      font-size: 2.4rem;
+    }
+    .hello4 {
+      font-size: 1.5rem;
+    }
+  }
+}
+
+@media (max-width: 800px) {
+  .arifpik {
+    width: 300px;
+    height: 200px;
+    border: 2px solid rgb(25, 245, 139);
+    border-radius: 50%;
+  }
+}
+
+@media (max-width: 600px) {
+  .arifpik {
+    width: 250px;
+    height: 150px;
+    border: 1px solid rgb(25, 245, 139);
+    border-radius: 50%;
+  }
+}
+
+@media (max-width: 800px) {
+  .tech {
+    text-align: center;
+    align-items: center;
+  }
+}
+
+@media (max-width: 800px) {
+  .main {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+  }
+}
+
+@media (max-width: 800px) {
+  .g2 {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+  }
+}
